@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Righteous&family=Urbanist:wght@500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #FFFF;
+    font: 400 26px/36px 'Vina Sans';
+    background-color: #FFFF;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: .4s;
+}
+ul li, 
+ol li {
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 75px;
+}
+.container-header {
+    padding: 0 10px;
+}
+/* Header */
+#header-section{
+    padding: 32px 0;
+}
+.header {
+    position: absolute;
+    height: 77px;
+    width: 100%;
+    top: 0;
+    left: 0;   
+    background-color: #005d30;
+}
+.nav-main {
+    flex-grow: 1;
+}
+.nav-main__list{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-main__list {
+    gap: 48px;
+    font: 400 18px;
+    margin: 20px 70px;
+}
+.nav-main__link_selected{
+    color: 	#90EE90;
+    font-weight: 400;
+    cursor: default;
+}
+.nav-main__link:hover {
+    color: #90EE90;
+}
+.banner__subtitle{
+    font: 34px/38px 'Roboto Slab', serif;
+    padding-top: 80px;
+    color: #005d30;
+    text-align: center;
+}
+.banner__text{
+    padding-top: 30px;
+    color: black;
+    position: absolute;
+    left: 40px auto;
+    max-width: 850px;
+}
+.canvalink{
+    color:#1759c2;
+}
+.baner__img {
+    height: 270px;
+    float: right;
+    margin-top: 3%;
+    margin-right: 10px;
+}
+.baner1__img {
+    height: 100px;
+    float: right;
+    margin-top: 1.5%;
+    margin-right: -85.5px;
+}
+.wide-bar {
+    position: absolute;
+    margin-top: 370px; /* Верхняя координата полоски */
+    left: 0px; /* Левая координата полоски */
+    right: 0px;
+    max-width:1519px auto; /* Ширина полоски */
+    height: 90px; /* Высота полоски */
+    background-color: #005d30; /* Цвет полоски */
+    z-index: 999;
+}
+.main1__text{
+    font: 33px/37px 'Roboto Slab', serif;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-top:400px;
+    color: #fff;
+    text-align: center;
+    z-index:999;
+}
+.canva2__img{
+    width: 700px;
+    margin-top: 50px;
+}
+.step1{
+    font: 27px/30px 'Roboto Slab', serif;
+    position: relative;
+    color: #005d30;
+    top: -200px;
+    width: 500px;
+    text-align: center;
+    margin-left: 60%;
+
+}
+.canva3__img{
+    width: 700px;
+    margin-top:-10px;
+}
+.step2, .step3, .step4{
+    font: 27px/30px 'Roboto Slab', serif;
+    position: relative;
+    color: #005d30;
+    top: -300px;
+    width: 500px;
+    text-align: center;
+    margin-left: 60%;
+
+}
+.videocanva{
+    margin-top: -150px;
+    margin-left: 200px;
+}
+.canva4__img{
+    width: 800px;
+    margin-top: 60px;
+}
+.canva5__img{
+    width: 800px;
+    margin-top: -80px;
+}
+
+
+/*Мобільна версія*/
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .header {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .nav-main__list {
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px 0;
+    }
+
+    .banner__subtitle {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .banner__text {
+        padding-top: 20px;
+        font-size: 18px;
+        left: 0;
+        max-width: 100%;
+    }
+
+    .baner__img, .baner1__img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .wide-bar {
+        margin-top: 20px;
+        height: 60px;
+    }
+
+    .main1__text {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .canva2__img, .canva3__img, .canva4__img, .canva5__img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .step1, .step2, .step3, .step4 {
+        font-size: 20px;
+        top: 0;
+        width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .videocanva {
+        width: 100%;
+        margin: 20px 0;
+    }
+}

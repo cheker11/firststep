@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Righteous&family=Urbanist:wght@500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #FFFF;
+    font: 400 26px/36px 'Vina Sans';
+    background-color: #FFFF;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: .4s;
+}
+ul li, 
+ol li {
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 75px;
+}
+.container-header {
+    padding: 0 10px;
+}
+/* Header */
+#header-section{
+    padding: 32px 0;
+}
+.header {
+    position: absolute;
+    height: 77px;
+    width: 100%;
+    top: 0;
+    left: 0;   
+    background-color: #005d30;
+}
+.nav-main {
+    flex-grow: 1;
+}
+.nav-main__list{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    font: 400 18px;
+    margin: 20px 70px;
+}
+.nav-main__link_selected{
+    color: 	#90EE90;
+    font-weight: 400;
+    cursor: default;
+}
+.nav-main__link:hover {
+    color: #90EE90;
+}
+.banner__subtitle{
+    font: 34px/38px 'Roboto Slab', serif;
+    padding-top: 50px;
+    color: #005d30;
+    text-align: center;
+}
+.banner__text{
+    padding-top: 50px;
+    color: black;
+    position: absolute;
+    left: 40px auto;
+    max-width: 800px;
+}
+.baner__img {
+    height: 450px;
+    float: right;
+    margin-top: -8%;
+}
+.main__text{
+    font: 33px/37px 'Roboto Slab', serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 450px;
+    color: #FFFF;
+    text-align: center;
+}
+.paragraph1{
+    font: 30px/32px 'Roboto Slab', serif;
+    color: #005d30;
+    text-align: left;
+    margin-left: -5%;
+    margin-right: auto;
+    max-width: 800px auto;
+    margin-top: 45%;
+}
+.paragraph2, .paragraph4, .paragraph6, .paragraph8 {
+    padding-top: 10px;
+    color: black;
+    position: auto;
+    margin-left: -4%;
+    max-width: 800px;
+}
+:root {
+    --margin-increment: 1%; /* значение инкремента */
+  }
+  .paragraph3, .paragraph5, .paragraph7 {
+    font: 30px/32px 'Roboto Slab', serif;
+    color: #005d30;
+    text-align: left;
+    margin-left: -5%;
+    margin-right: fixed;
+    max-width: 800px;
+    margin-top: calc(1% + var(--margin-increment) * 1); /* для .paragraph3 */ 
+  }
+  .paragraph5 {
+    margin-top: calc(1% + var(--margin-increment) * 1); /* для .paragraph5 */
+  }
+  .paragraph7 {
+    margin-top: calc(1% + var(--margin-increment) * 1); /* для .paragraph7 */
+  }
+   
+.first__img{
+    height: 450px;
+    float: right;
+    margin-right: -3%;
+    margin-top: -50%;
+    clear: right;
+}
+.wide-bar {
+    position: absolute;
+    top: 600px; /* Верхняя координата полоски */
+    left: 0px; /* Левая координата полоски */
+    right: 0px;
+    max-width:1519px auto; /* Ширина полоски */
+    height: 90px; /* Высота полоски */
+    background-color: #005d30; /* Цвет полоски */
+    z-index: -1;
+}
+.wide-bar1 {
+    position: absolute;
+    top: 1500px; /* Верхняя координата полоски */
+    left: 0px; /* Левая координата полоски */
+    right: 0;
+    max-width:1519px auto; /* Ширина полоски */
+    height: 90px; /* Высота полоски */
+    background-color: #005d30; /* Цвет полоски */
+    z-index: -1;
+}
+.main1__text{
+    font: 33px/37px 'Roboto Slab', serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 50px;
+    color: #FFFF;
+    text-align: center;
+}
+:root {
+    --margin-increment: 2%; 
+  }
+.paragraph9{
+    font: 34px/36px 'Roboto Slab', serif;
+    color: #005d30;
+    text-align: left;
+    margin-left: 13%;
+    margin-right: 0 auto;
+    max-width: 800px;
+    margin-top: calc(15% + var(--margin-increment) * 0);
+}
+.paragraph10{
+    padding-top: 52px;
+    color: black;
+    position: auto;
+    margin-left: -8%;
+    width: 600px;
+    margin-top: -2%;
+}
+.paragraph11{
+    font: 34px/36px 'Roboto Slab', serif;
+    color: #005d30;
+    position: relative;
+    text-align: right;
+    margin-left: 300px ;
+    margin-right: 0 auto;
+    max-width: 800px;
+    margin-top: -21%;
+}
+.paragraph12{
+    padding-top: 50px;
+    color: black;
+    position: auto;
+    margin-left: 60%;
+    width: 600px;
+    margin-top: -2%;
+}
+.arrow__img{
+    margin-left: 30%;
+    margin-top: -27%;
+}
+.carousel {
+    width: 100%; 
+    padding: 50px;
+    margin-top: -150px;
+}
+
+.carousel-inner,
+.carousel-item {
+    width: 100%; 
+    height: 500px; 
+}
+
+.carousel-item img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+.arrow2__img{
+    width: 600px;
+    height: 300px;
+    margin-left: 27%;
+    margin-top: -1%;
+}
+#carouselExampleCaptions2{
+    position: relative;
+    top: -70px;
+}
+.wide-bar2 {
+    position: absolute;
+    padding: 10px; /* Верхняя координата полоски */
+    left: 0px; /* Левая координата полоски */
+    right: 0;
+    max-width:1519px auto; /* Ширина полоски */
+    height: 90px; /* Высота полоски */
+    background-color: #005d30; /* Цвет полоски */
+    z-index: -1;
+}
+.main2__text{
+    font: 33px/37px 'Roboto Slab', serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    color: #FFFF;
+    text-align: center;
+}
+.paragraph13{
+    padding-top: 50px;
+    color: #005d30;
+    position: auto;
+    margin-left: -20px;
+    width: 1350px;
+    margin-top: 5%;
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    font-size: 21px;
+}
+.list-group-item{
+    font-size: 20px;
+}
+.card-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 100%; 
+    margin: 10px; /* Встановлюємо однакові відступи навколо карточок */
+    margin-top: 30px; 
+}
+.wide-bar2 {
+    position: absolute;
+    margin-top: -20px;
+    left: 0px; /* Левая координата полоски */
+    right: 0;
+    max-width:1519px auto; /* Ширина полоски */
+    height: 90px; /* Высота полоски */
+    background-color: #005d30; /* Цвет полоски */
+    z-index: -1;
+}
+.main2__text{
+    font: 33px/37px 'Roboto Slab', serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    color: #FFFF;
+    text-align: center;
+}
+
+.wide-bar3 {
+    position: absolute;
+    margin-top: 30px;
+    left: 0px; /* Левая координата полоски */
+    right: 0;
+    max-width:1519px auto; /* Ширина полоски */
+    height: 90px; /* Высота полоски */
+    background-color: #005d30; /* Цвет полоски */
+    z-index: -1;
+}
+.main3__text{
+    font: 33px/37px 'Roboto Slab', serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 25px;
+    color: #FFFF;
+    text-align: center;
+}
+.screen{
+    padding: 100px; /* Відстань від картинки до рамки */
+	margin-right: 10px; /* Відступ зправа */
+	margin-top: 60px; 
+    margin-left: -150px;
+    height: 700px;
+}
+.bi-arrow-right-circle-fill {
+    position: relative;
+    z-index: 9999;
+    font-size: 2rem; /* Зміна розміру */
+    color: #005d30; /* Зміна кольору на чорний */
+    left: -80px; /* Зміщення вліво */
+}
+.work__text {
+    font: 25px/27px 'Roboto Slab', serif;
+    position: relative;
+    color: #005d30;
+    padding: 5px;
+    width: 350px;
+    text-align: center;
+    margin-left: 76%;
+    top: -590px;
+}
+.gif{
+    height: 200px;
+    float: right;
+    padding-right: 190px;
+    margin-top: -590px;
+    position: relative;
+    z-index: 9999;
+}
+.screen1 {
+    display: flex;
+    margin-top: -350px; 
+    margin-left: -50px; /* Изменяем это значение для сдвига влево */
+    height: 350px;
+}
+.screen1 img {
+    margin-right: 55px; /* Уменьшаем отступ справа */
+}
+.bi-arrow-right-circle-fill {
+    position: relative;
+    z-index: 9999;
+    font-size: 2rem; /* Зміна розміру */
+    color: #005d30; /* Зміна кольору на чорний */
+    left: -80px; /* Зміщення вліво */
+}
+.second-arrow {
+    position: relative;
+    z-index: 9999;
+    font-size: 2rem; /* Зміна розміру */
+    color: #005d30; /* Зміна кольору на чорний */
+    left: -20px; /* Зміщення вправо */
+    top: 130px; /* Поднятие ниже */
+}
+.work__text1, .work__text2{
+    font: 22px/24px 'Roboto Slab', serif;
+    position: relative;
+    color: #005d30;
+    padding: 5px;
+    width: 370px;
+    text-align: center;
+    margin-left: 76%;
+    top: -350px;
+}
+.screen2 {
+    display: flex;
+    height: 350px;
+    margin-left: -50px;
+    margin-top: -310px; 
+}
+.screen2 img {
+    margin-right: 55px; /* Уменьшаем отступ справа */
+}
+.gif1{
+    height: 400px;
+    margin-top: -280px;
+    margin-left: -50px;
+}
+.work__text3{
+    font: 25px/27px 'Roboto Slab', serif;
+    position: relative;
+    color: #005d30;
+    padding: 5px;
+    width: 430px;
+    text-align: center;
+    margin-left: 67%;
+    top: -350px;
+}
+.gif2{
+    margin-top: -550px;
+    margin-left: 45%;
+    z-index: 9999;
+    position: relative;
+    height: 280px;
+}
+
+
+/* Мобільна версія */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+    .nav-main__list {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 16px;
+        margin: 20px 0;
+    }
+    .banner__subtitle {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+    .banner__text {
+        font-size: 16px;
+        padding-top: 20px;
+        max-width: 90%;
+        left: 5%;
+    }
+    .baner__img {
+        height: 200px;
+        margin-top: 20px;
+    }
+    .main__text {
+        padding: 100px;
+    }
+    .paragraph1, .paragraph3, .paragraph5, .paragraph7, .paragraph9, .paragraph11 {
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .paragraph2, .paragraph4, .paragraph6, .paragraph8, .paragraph10, .paragraph12 {
+        font-size: 14px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .first__img, .screen, .gif, .gif1, .gif2 {
+        height: auto;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .wide-bar, .wide-bar1, .wide-bar2, .wide-bar3 {
+        height: 50px;
+    }
+    .main1__text, .main2__text, .main3__text {
+        font-size: 24px;
+        padding: 20px;
+    }
+    .carousel {
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .carousel-inner, .carousel-item {
+        height: 300px;
+    }
+    .card {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+    .work__text, .work__text1, .work__text2, .work__text3 {
+        font-size: 18px;
+        width: 100%;
+        text-align: left;
+        margin-left: 0;
+        top: 0;
+    }
+    .screen1, .screen2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .screen1 img, .screen2 img {
+        margin: 10px 0;
+    }
+    .bi-arrow-right-circle-fill, .second-arrow {
+        display: none;
+    }
+    .arrow2__img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+}
+
+

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Righteous&family=Urbanist:wght@500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #FFFF;
+    font: 400 26px/36px 'Vina Sans';
+    background-color: #FFFF;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: .4s;
+}
+ul li, 
+ol li {
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 75px;
+}
+.container-header {
+    padding: 0 10px;
+}
+/* Header */
+#header-section{
+    padding: 32px 0;
+}
+.header {
+    position: absolute;
+    height: 77px;
+    width: 100%;
+    top: 0;
+    left: 0;   
+    background-color: #005d30;
+}
+.nav-main {
+    flex-grow: 1;
+}
+.nav-main__list{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-main__list {
+    gap: 48px;
+    font: 400 18px;
+    margin: 20px 70px;
+}
+.nav-main__link_selected{
+    color: 	#90EE90;
+    font-weight: 400;
+    cursor: default;
+}
+.nav-main__link:hover {
+    color: #90EE90;
+}
+.banner__subtitle{
+    font: 34px/38px 'Roboto Slab', serif;
+    padding-top: 80px;
+    color: #005d30;
+    text-align: center;
+}
+.banner__text{
+    padding-top: 50px;
+    color: black;
+    position: absolute;
+    left: 40px auto;
+    max-width: 800px;
+    font-weight: normal;
+}
+.blenderlink{
+    color:#1759c2;
+}
+.baner__img {
+    height: 340px;
+    float: right;
+    margin-top: 9%;
+    margin-right: -40px;
+}
+.videocanva{
+    padding-top: 60px;
+    margin-left: 50px;
+    width: 600px;
+}
+.videocanva1{
+    margin-top: 60px;
+    float: right;
+    width: 600px;
+}
+.main1__text{
+    font: 34px/38px 'Roboto Slab', serif;
+    padding-top: 600px;
+    color: #005d30;
+    text-align: center;
+}
+.wide-bar {
+    position: absolute;
+    margin-top: 30px; /* Верхняя координата полоски */
+    left: 0px; /* Левая координата полоски */
+    right: 0px;
+    max-width:1519px auto; /* Ширина полоски */
+    height: 90px; /* Высота полоски */
+    background-color: #005d30; /* Цвет полоски */
+    z-index: 999;
+}
+.maintext{
+    font: 33px/37px 'Roboto Slab', serif;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-top:60px;
+    color: white;
+    text-align: center;
+    z-index:999;
+}
+.mainvideo{
+    padding-top: 60px;
+    margin-left: 200px;
+    width: 900px;
+}
+
+/*Мобільна версія*/
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .header {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .nav-main__list {
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 0;
+    }
+
+    .nav-main__item {
+        text-align: center;
+    }
+
+    .banner__subtitle {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .banner__text {
+        padding-top: 20px;
+        font-size: 18px;
+        left: 0;
+        max-width: 100%;
+        position: static;
+    }
+
+    .baner__img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .videocanva, .videocanva1, .mainvideo {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .main1__text {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    .wide-bar {
+        margin-top: 20px;
+        height: 60px;
+    }
+
+    .maintext {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+}

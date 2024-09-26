@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Righteous&family=Urbanist:wght@500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #FFFF;
+    font: 400 26px/36px 'Vina Sans';
+    background-color: #FFFF;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: .4s;
+}
+ul li, 
+ol li {
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 75px;
+}
+.container-header {
+    padding: 0 10px;
+}
+/* Header */
+#header-section{
+    padding: 32px 0;
+}
+.header {
+    position: absolute;
+    height: 77px;
+    width: 100%;
+    top: 0;
+    left: 0;   
+    background-color: #005d30;
+}
+.nav-main {
+    flex-grow: 1;
+}
+.nav-main__list{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-main__list {
+    gap: 48px;
+    font: 400 18px;
+    margin: 20px 70px;
+}
+.nav-main__link_selected{
+    color: 	#90EE90;
+    font-weight: 400;
+    cursor: default;
+}
+.nav-main__link:hover {
+    color: #90EE90;
+}
+.banner__subtitle{
+    font: 34px/38px 'Roboto Slab', serif;
+    padding-top: 80px;
+    color: #005d30;
+    text-align: center;
+}
+.banner__text{
+    padding-top: 50px;
+    color: black;
+    position: absolute;
+    left: 40px auto;
+    max-width: 800px;
+}
+
+.baner__img {
+    height: 450px;
+    float: right;
+    margin-top: 5%;
+}
+.baner1__img {
+    height: 100px;
+    float: right;
+    margin-top: 140px;
+    transform: rotate(-10deg);
+    margin-right: -30px;
+}
+.baner2__img {
+    float: right;
+    margin-top: -35%;
+    padding-left: 60%;
+}
+.wide-bar1 {
+    position: absolute;
+    top: 650px; /* Верхняя координата полоски */
+    left: 0px; /* Левая координата полоски */
+    right: 0px;
+    max-width:1519px auto; /* Ширина полоски */
+    height: 90px; /* Высота полоски */
+    background-color: #005d30; /* Цвет полоски */
+    z-index: 999;
+}
+
+.main1__text{
+    font: 33px/37px 'Roboto Slab', serif;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-top:25px;
+    color: #fff;
+    text-align: center;
+    z-index:999;
+}
+.first__img{
+    padding-top: 620px;
+    height: 400px;
+}
+
+
+.main1__text{
+    font: 33px/37px 'Roboto Slab', serif;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-top:25px;
+    color: #fff;
+    text-align: center;
+    z-index:999;
+}
+.first__img{
+    padding-top: 620px;
+    height: 400px;
+}
+.baner3__img {
+    height: 300px;
+    float: left;
+    margin-top: 7%;
+    margin-left: -150px;
+}
+.step1{
+    font: 27px/30px 'Roboto Slab', serif;
+    position: relative;
+    color: #005d30;
+    top: 200px;
+    width: 500px;
+    text-align: center;
+    margin-left: 60%;
+
+}
+.baner4__img {
+    height: 300px;
+    float: left;
+    margin-top: 25%;
+    margin-left: -600px;
+}
+.step2{
+    font: 27px/30px 'Roboto Slab', serif;
+    position: relative;
+    color: #005d30;
+    top: 400px;
+    width: 500px;
+    text-align: center;
+    margin-left: 60%;
+}
+.baner5__img{
+    height: 120px;
+    float: right;
+    margin-top: 30%;
+}
+.baner6__img{
+   width:800px;
+   padding-top: 300px;
+}
+.step3{
+    font: 27px/30px 'Roboto Slab', serif;
+    position: relative;
+    color: #005d30;
+    top: -100px;
+    width: 500px;
+    text-align: center;
+    margin-left: 60%;
+}
+.baner7__img{
+    width:500px;
+    height: 400px;
+}
+.step4{
+    font: 27px/30px 'Roboto Slab', serif;
+    position: relative;
+    color: #005d30;
+    top: -270px;
+    width: 500px;
+    text-align: center;
+    margin-left: 50%;
+}
+.baner8__img, .baner9__img{
+    width: 700px;
+}
+.step5{
+    font: 27px/30px 'Roboto Slab', serif;
+    position: relative;
+    color: #005d30;
+    top: -270px;
+    width: 500px;
+    text-align: center;
+    margin-left: 60%;
+}
+.step6{
+    font: 27px/30px 'Roboto Slab', serif;
+    position: relative;
+    color: #005d30;
+    top: -150px;
+    width: 500px;
+    text-align: center;
+    margin-left: 60%;  
+}
+.wide-bar {
+    position: absolute;
+    margin-top: 2px; /* Верхняя координата полоски */
+    left: 0px; /* Левая координата полоски */
+    right: 0px;
+    max-width:1519px auto; /* Ширина полоски */
+    height: 90px; /* Высота полоски */
+    background-color: #005d30; /* Цвет полоски */
+    z-index: 999;
+}
+.step7{
+    font: 29px/32px 'Roboto Slab', serif;
+    position: relative;
+    color: #005d30;
+    top: 70px;
+    width: 1000px;
+    text-align: center;
+    margin-left: 180px;
+}
+.carousel {
+    width: 100%; 
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.carousel-inner,
+.carousel-item {
+    width: 100%; 
+    height: 600px; 
+}
+
+.carousel-item img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+#carouselExampleCaptions2{
+    position: relative;
+    top: -70px;
+}
+.main2__text{
+    font: 33px/37px 'Roboto Slab', serif;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-top:40px;
+    color: #fff;
+    text-align: center;
+    z-index:999;
+}
+.main3__text{
+    font: 33px/37px 'Roboto Slab', serif;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-top:30px;
+    color: #fff;
+    text-align: center;
+    z-index:999;
+}
+.baner10__img{
+    padding-top: 100px;
+}
+.step8{
+    font: 29px/32px 'Roboto Slab', serif;
+    position: relative;
+    color: #005d30;
+    top: 80px;
+    width: 1300px;
+    text-align: left;
+    margin-left: 10px;
+}
+.baner11__img{
+    padding-top: 100px;
+    width: 800px;
+}
+.step9{
+    font: 29px/32px 'Roboto Slab', serif;
+    position: relative;
+    color: #005d30;
+    top: 50px;
+    width: 1300px;
+    text-align: left;
+    margin-left: 10px;
+}
+.baner12__img{
+    padding-top: 60px;
+}
+.baner13__img{
+    padding-top: 80px;
+    width: 800px;
+}
+.baner14__img{
+    padding-top: 80px;
+    width: 600px;
+    padding-bottom: 30px;
+}
+.step10{
+    font: 29px/32px 'Roboto Slab', serif;
+    position: relative;
+    color: #005d30;
+    top: 50px;
+    width: 1000px;
+    text-align: center;
+    margin-left: 180px;
+}
+.link {
+    margin-left: 32%;
+    top: 50px; 
+    color: #1759c2;
+    position: relative; 
+    padding-bottom: 10px;
+}
+/* Мобільна версія */
+@media (max-width: 768px) {
+    .nav-main__item {
+        flex-direction: column;
+        gap: 2px;
+    }
+    .banner__subtitle {
+        font-size: 28px;
+        padding-top: 40px;
+    }
+    .banner__text {
+        font-size: 18px;
+        padding-top: 20px;
+        max-width: 90%;
+        left: 5%;
+    }
+    .baner__img {
+        height: 250px;
+        margin-top: 10%;
+    }
+    .baner1__img {
+        height: 60px;
+        margin-top: 70px;
+        margin-right: -15px;
+    }
+    .baner2__img {
+        margin-top: -20%;
+        padding-left: 40%;
+    }
+    .wide-bar1 {
+        top: 600px;
+        height: 70px;
+    }
+    .main1__text {
+        font-size: 24px;
+        margin-top: 15px;
+    }
+    .first__img {
+        padding-top: 310px;
+        height: 200px;
+    }
+    .baner3__img,
+    .baner4__img,
+    .baner5__img,
+    .baner6__img,
+    .baner7__img,
+    .baner8__img,
+    .baner9__img,
+    .baner10__img,
+    .baner11__img,
+    .baner12__img,
+    .baner13__img,
+    .baner14__img {
+        height: auto;
+        width: 100%;
+        float: none;
+        margin: 10px 0;
+    }
+    .step1,
+    .step2,
+    .step3,
+    .step4,
+    .step5,
+    .step6,
+    .step7,
+    .step8,
+    .step9,
+    .step10 {
+        font-size: 18px;
+        width: 100%;
+        margin-left: 0;
+        top: 0;
+        text-align: left;
+    }
+    .carousel {
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .carousel-inner,
+    .carousel-item {
+        height: 300px;
+    }
+    .main2__text,
+    .main3__text {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .link {
+        margin-left: 20%;
+        font-size: 16px;
+    }
+}
